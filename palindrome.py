@@ -1,5 +1,6 @@
 def check_palindrome(word):
-    if word == word[::-1]:
+    word1=word.lower()
+    if word1 == word1[::-1]:
         status=True
     else:
         status=False
